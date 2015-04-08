@@ -5,16 +5,7 @@ files:
     destination: /home/ec2-user/UC 
   
 hooks:
-  BeforeInstall:
+  Install:
     - location: /home/ec2-user/UC
     
-  AfterInstall:
-    - location: 
-      timeout: 180
-  ApplicationStart:
-    - location: 
-      timeout: 3600
-  ValidateService:
-    - location: 
-      timeout: 3600
-      runas: 
+  
