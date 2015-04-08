@@ -2,10 +2,10 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/UC 
+    destination: 
   
 hooks:
   Install:
-    - location: /home/ec2-user/UC
+    - location: /home/ec2-user/UC/UseCasesDemo
     
   
